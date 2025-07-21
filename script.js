@@ -1,6 +1,7 @@
 const form = document.querySelector("form");
 const email = document.getElementById("email");
 const emailError = document.querySelector(".error-text");
+const userEmail = document.getElementById("user-email");
 const btnSignup = document.querySelector(".btn-signup");
 const btnDismiss = document.querySelector(".btn-dismiss");
 
@@ -22,6 +23,8 @@ form.addEventListener("submit", (event) => {
     emailError.textContent = "";
     email.classList.remove("error");
     btnSignup.classList.add("btn-valid");
+
+    userEmail.textContent = email.value;
 
     formWrapper.style.display = "none";
     successWrapper.style.display = "flex";
@@ -51,6 +54,7 @@ btnDismiss.addEventListener("click", function () {
   btnSignup.classList.remove("btn-valid");
   formWrapper.style.display = "flex";
   successWrapper.style.display = "none";
+  formSubmitted = false;
 });
 
 function showError() {

@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/form-validation-with-vanilla-js-BuHNwKJ4ff)
+- Live Site URL: [Live site URL](https://newsletter-signup-form-jiah.netlify.app/)
 
 ## My process
 
@@ -49,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-I have learnt how to create a sign-up form with HTML, CSS and vanilla Javascript, especially how to do customized form validation messages with CSS and Javascript.
+I learned how to create a sign-up form using HTML, CSS, and vanilla JavaScript — especially how to implement custom form validation messages using the Constraint Validation API.
 
 ```js
 let formSubmitted = false;
@@ -76,13 +76,7 @@ form.addEventListener("submit", (event) => {
 
 ### Continued development
 
-While building this project, I improved my skills in form validation, responsive design, and accessibility. Here are some areas I plan to focus on next:
-
-- **JavaScript Form Handling**
-- I'd like to refactor the JavaScript to better separate validation logic, DOM manipulation, and event handling for cleaner, more maintainable code.
-
-- **Progressive Enhancement**
-- I'd like to add server-side validation and a fallback message if JavaScript is disabled, making the form more resilient.
+Next time, I'd like to explore validating forms without using the built-in Constraint Validation API — by writing all the logic from scratch.
 
 ### Useful resources
 
